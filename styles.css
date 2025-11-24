@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;700&family=Open+Sans:wght@300;600&display=swap');
 
 :root{
-  --bg:#3e3b3b;
+  --bg:#252323;
   --text:#ffffff;
   --muted: rgba(255,255,255,0.75);
   --accent: #ffffff;
@@ -19,12 +19,12 @@ body{
 
 main{
   max-width: 1200px;
-  margin: 24px auto;
+  margin: 0 auto;
   padding: 0 20px 80px;
 }
 
 section{
-  background: rgba(0,0,0,0.35);
+  background: rgba(0,0,0,0.15);
   border-radius: 2px;
   margin-bottom: 18px;
   min-height: var(--section-height);
