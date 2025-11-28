@@ -131,3 +131,46 @@ section{
   .projects-grid{ flex-direction: column; }
   .project img{ width: 260px; height:160px; }
 }
+.tools{
+  background:  rgba(0,0,0,0.15);;
+  border-radius: 2px;
+  min-height: var(--section-height);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.tools-box{
+  text-align: center;
+}
+
+.tools-title{
+  font-family: "Merriweather", serif;
+  font-size: clamp(28px, 5vw, 48px);
+  margin-bottom: 20px;
+  color: white;
+}
+
+.tools-texts{
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  color: white;
+  font-weight: 600;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.tools-icons{
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  margin-top: 10px;
+}
+
+.tools-icons img{
+  width: 90px;
+  height: 90px;
+}
+
